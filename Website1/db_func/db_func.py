@@ -1,12 +1,12 @@
 import sqlite3
 
 def get_db():
-    connection = sqlite3.connect('invoices.db')
+    connection = sqlite3.connect('Website1/invoices.db')
     return connection
 
 
 def check_db_exist():
-    connection = sqlite3.connect('invoices.db')
+    connection = sqlite3.connect('Website1/invoices.db')
     cursor = connection.cursor()
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
     if not cursor.fetchall():
