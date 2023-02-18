@@ -12,7 +12,7 @@ def home():
 
 
 @app.route('/addinvoice', methods = ['GET', 'POST'])
-def addinvoice():
+def addinvoice(): 
          
     if request.method == 'POST':
         
