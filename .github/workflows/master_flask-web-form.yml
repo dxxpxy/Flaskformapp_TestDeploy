@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'flask-web-form'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_54A7FD76A6A242A6B32374656DF01015 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CCEACB34CBBB487482E54DD29EADDFA9 }}
